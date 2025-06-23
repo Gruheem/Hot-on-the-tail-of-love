@@ -1,2 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Patua+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Kranky&display=swap");
 
+/* CSS Variables */
+:root {
+  --primary-color: #34646c;
+  --secondary-color: #c78340;
+  --highlight-color: #82ddf2;
+  --highlight-color-light: #eee9dd;
+  --primary-font: "Figtree", sans-serif;
+  --secondary-font: "Kranky", cursive;
+}
+
+/* Global Stlyes */
+
+body {
+  font-family: var(--primary-font);
+  padding-top: 72px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  color: white;
+}
+
+.bg-color-primary {
+  background-color: var(--primary-color);
+}
+
+/* Navbar Styling */
+
+#navbar {
+  background-color: var(--primary-color);
+  min-height: 76px;
+}
+
+#navbar h1 {
+  color: white;
+}
+
+/*Hero*/
+#hero img {
+    max-width: 100%;
+}
+
+/* Button Styling */
+
+.custom-button-filled {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
+}
+
+/* media query */
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  header h2 {
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+}
