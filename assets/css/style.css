@@ -20,7 +20,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--secondary-font);
   color: white;
 }
@@ -54,6 +55,16 @@ h3 {
 
 #about-us p {
     text-align: center;
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: var(--primary-color)
+}
+
+footer p {
+    color: white;
 }
 
 /* Social Links */
@@ -96,6 +107,6 @@ h3 {
 
 @media screen and (min-width: 1400px) {
   #spacer-top {
-    margin-top: 65px;
+    margin-top: 50px;
   }
 }
