@@ -27,6 +27,12 @@ h3 {
 
 .bg-color-primary {
   background-color: var(--primary-color);
+  border-radius: 20px;
+}
+
+.bg-color-secondary {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
 }
 
 /* Navbar Styling */
@@ -34,6 +40,7 @@ h3 {
 #navbar {
   background-color: var(--primary-color);
   min-height: 76px;
+  max-height: 76px;
   
 }
 
@@ -41,6 +48,18 @@ h3 {
 /*Hero*/
 #hero img {
   max-width: 100%;
+}
+
+/*about us*/
+
+#about-us p {
+    text-align: center;
+}
+
+/* Social Links */
+
+#social-links a {
+    color: var(--secondary-color)
 }
 
 /* Button Styling */
@@ -61,17 +80,22 @@ h3 {
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
   header h2 {
     border-radius: 20px;
   }
 
   #spacer-top {
-    margin-top: 40px;
+    margin-top: 20px;
+  }
+  /*about us*/
+  #about-us p {
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 1400px) {
   #spacer-top {
-    margin-top: 120px;
+    margin-top: 65px;
   }
 }
