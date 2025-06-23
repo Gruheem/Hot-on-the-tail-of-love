@@ -8,8 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Patua+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Kranky&display=swap"
       rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
     />
     <!-- Bootstrap Link -->
     <link
@@ -19,9 +37,53 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h1 class="display-6">A Tail of Two Hearts</h1></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ours Stars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get Involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn custom-button-filled" href="#">Adopt Now!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="header">
+      
+
+        <Hero class="">
+          <img class="img-fluid" src="assets/images/hero-image.webp" alt="a persons hand laid next to a dogs paw">
+          <h2 class="display-6 text-center bg-color-primary py-4">Helping dogs find their forever families</h2>
+        </Hero>
+
+    </header>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
