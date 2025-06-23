@@ -15,6 +15,7 @@
 body {
   font-family: var(--primary-font);
   padding-top: 72px;
+  background-color: var(--highlight-color-light);
 }
 
 h1,
@@ -33,11 +34,9 @@ h3 {
 #navbar {
   background-color: var(--primary-color);
   min-height: 76px;
+  
 }
 
-#navbar h1 {
-  color: white;
-}
 
 /*Hero*/
 #hero img {
@@ -47,9 +46,15 @@ h3 {
 /* Button Styling */
 
 .custom-button-filled {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.custom-button-filled:hover {
   border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
-  color: white;
+  color: var(--primary-color);
 }
 
 /* media query */
@@ -61,12 +66,12 @@ h3 {
   }
 
   #spacer-top {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   #spacer-top {
-    margin-top: 180px;
+    margin-top: 120px;
   }
 }
