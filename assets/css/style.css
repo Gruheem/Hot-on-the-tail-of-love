@@ -41,7 +41,7 @@ h3 {
 
 /*Hero*/
 #hero img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* Button Styling */
@@ -58,6 +58,15 @@ h3 {
 @media screen and (min-width: 1200px) {
   header h2 {
     border-radius: 20px;
-    margin-right: 10px;
+  }
+
+  #spacer-top {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #spacer-top {
+    margin-top: 180px;
   }
 }
