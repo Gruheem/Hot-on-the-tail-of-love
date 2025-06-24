@@ -36,6 +36,18 @@ h4 {
   border-radius: 20px;
 }
 
+.bg-card-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-card-highlight-color-light {
+  background-color: var(--highlight-color-light);
+}
+
+.card-text-title {
+  font-family: var(--secondary-font);
+  color: white;
+}
 /* Navbar Styling */
 
 #navbar {
