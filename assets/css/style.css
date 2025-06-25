@@ -86,6 +86,11 @@ footer p {
     color: var(--secondary-color)
 }
 
+/*Our Dogs Styling */
+.card {
+  min-height: 446.45px;
+}
+
 /* Button Styling */
 
 .custom-button-filled {
