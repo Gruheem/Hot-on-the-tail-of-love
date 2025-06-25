@@ -55,9 +55,7 @@ h4 {
   background-color: var(--primary-color);
   min-height: 76px;
   max-height: 76px;
-  
 }
-
 
 /*Hero*/
 #hero img {
@@ -67,23 +65,28 @@ h4 {
 /*About Us*/
 
 #about-us p {
-    text-align: center;
+  text-align: center;
 }
 
 /* Footer Styling */
 
 footer {
-    background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 footer p {
-    color: white;
+  color: white;
 }
 
 /* Social Links */
 
 #social-links a {
-    color: var(--secondary-color)
+  color: var(--secondary-color);
+  margin: 2rem;
+}
+
+#social-links a:hover {
+  color: var(--highlight-color)
 }
 
 /*Our Dogs Styling */
@@ -136,7 +139,6 @@ footer p {
 
 /* XL Devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
   header h2 {
     border-radius: 20px;
   }
