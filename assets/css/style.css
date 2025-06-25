@@ -14,8 +14,8 @@
 
 body {
   font-family: var(--primary-font);
-  padding-top: 72px;
-  background-color: var(--highlight-color-light);
+  padding-top: 101.19px;
+  background-color: white;
 }
 
 h1,
@@ -49,12 +49,15 @@ h4 {
   color: white;
 }
 
+.card-body {
+  background-color: var(--highlight-color-light);
+}
+
 /* Navbar Styling */
 
 #navbar {
   background-color: var(--primary-color);
-  min-height: 76px;
-  max-height: 76px;
+  min-height: 101.19px;
 }
 
 /*Hero*/
@@ -96,7 +99,7 @@ footer tr, footer th {
 }
 
 #social-links a:hover {
-  color: var(--highlight-color)
+  color: var(--highlight-color);
 }
 
 /*Our Dogs Styling */
@@ -138,6 +141,11 @@ footer tr, footer th {
   .card {
     min-width: 18rem;
   }
+
+  #adoption-process .card {
+    min-height: 151px;
+  }
+
 }
 
 /* LG Devices (992px and above) */
@@ -160,6 +168,10 @@ footer tr, footer th {
   #about-us p {
     text-align: left;
   }
+
+  .adoption-card {
+    min-height: 136px;
+  }
 }
 
 /* XXL Devices */
@@ -170,5 +182,12 @@ footer tr, footer th {
 
   .card {
     min-width: 18rem;
+  }
+
+  #adoption-process .card {
+    min-height: 204.59px;
+  }
+  .adoption-card {
+    min-width: 140px;
   }
 }
