@@ -48,6 +48,7 @@ h4 {
   font-family: var(--secondary-font);
   color: white;
 }
+
 /* Navbar Styling */
 
 #navbar {
@@ -63,7 +64,7 @@ h4 {
   max-width: 100%;
 }
 
-/*about us*/
+/*About Us*/
 
 #about-us p {
     text-align: center;
@@ -99,9 +100,30 @@ footer p {
   color: var(--primary-color);
 }
 
-/* media query */
+/* Media Queries */
 
-/* xl devices (large desktops, 1200px and up) */
+/* SM Devices */
+@media screen and (min-width: 576px) {
+  .card {
+    min-width: 25rem;
+  }
+}
+
+/* MD Devices */
+@media screen and (min-width: 768px) {
+  .card {
+    min-width: 18rem;
+  }
+}
+
+/* LG Devices (992px and above) */
+@media screen and (min-width: 992px) {
+  .card {
+    min-width: 25rem;
+  }
+}
+
+/* XL Devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
   header h2 {
@@ -111,14 +133,19 @@ footer p {
   #spacer-top {
     margin-top: 20px;
   }
-  /*about us*/
+  /*About Us*/
   #about-us p {
     text-align: left;
   }
 }
 
+/* XXL Devices */
 @media screen and (min-width: 1400px) {
   #spacer-top {
     margin-top: 50px;
+  }
+
+  .card {
+    min-width: 18rem;
   }
 }
