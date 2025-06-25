@@ -87,8 +87,14 @@ footer p {
 }
 
 /*Our Dogs Styling */
-.card {
-  min-height: 446.45px;
+.dog-card {
+  min-height: 485px;
+}
+
+/* Success Styling */
+
+.max-height {
+  max-height: 700px;
 }
 
 /* Button Styling */
