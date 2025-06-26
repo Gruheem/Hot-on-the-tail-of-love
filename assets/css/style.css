@@ -84,15 +84,15 @@ footer p {
   color: white;
 }
 
-/* Trying to make the background of table footer the primary colour */
-
-/* .table-transparent {
-  background-color: transparent;
+footer table {
+  background-color: var(--primary-color);
 }
 
-footer tr, footer th {
-  background-color: var(--primary-color);
-} */
+.custom-table thead th,
+.custom-table tbody td,
+.custom-table tbody th {
+  background-color: transparent;
+}
 
 /* Social Links */
 
