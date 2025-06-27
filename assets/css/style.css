@@ -175,6 +175,10 @@ footer table {
   .adoption-card {
     min-height: 136px;
   }
+
+  #about-us div .mediaq-margin-top {
+    margin-top: 2rem;
+  }
 }
 
 /* XXL Devices */
