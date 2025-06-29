@@ -6,6 +6,7 @@
   --secondary-color: #c78340;
   --highlight-color: #82ddf2;
   --highlight-color-light: #eee9dd;
+  --font-color: #ffffff;
   --primary-font: "Figtree", sans-serif;
   --secondary-font: "Kranky", cursive;
 }
@@ -14,7 +15,7 @@
 
 body {
   font-family: var(--primary-font);
-  padding-top: 101.19px;
+  padding-top: 6rem;
 }
 
 h1,
@@ -22,7 +23,7 @@ h2,
 h3,
 h4 {
   font-family: var(--secondary-font);
-  color: white;
+  color: --font-color;
 }
 
 .bg-color-primary {
@@ -45,7 +46,7 @@ h4 {
 
 .card-text-title {
   font-family: var(--secondary-font);
-  color: white;
+  color: --font-color;
 }
 
 .card-body {
@@ -53,7 +54,7 @@ h4 {
 }
 
 .w-text {
-  color: #fff
+  color:  --font-color
 }
 
 /* Navbar Styling */
@@ -81,7 +82,7 @@ footer {
 }
 
 footer p {
-  color: white;
+  color: --font-color;
 }
 
 footer table {
@@ -121,7 +122,7 @@ footer table {
 .custom-button-filled {
   border: 2px solid var(--secondary-color);
   background-color: var(--secondary-color);
-  color: white;
+  color:  --font-color;
 }
 
 .custom-button-filled:hover {
