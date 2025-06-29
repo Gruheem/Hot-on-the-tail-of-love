@@ -23,17 +23,17 @@ h2,
 h3,
 h4 {
   font-family: var(--secondary-font);
-  color: --font-color;
+  color: var(--font-color);
 }
 
 .bg-color-primary {
   background-color: var(--primary-color);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .bg-color-secondary {
   background-color: var(--secondary-color);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .bg-card-primary {
@@ -46,7 +46,7 @@ h4 {
 
 .card-text-title {
   font-family: var(--secondary-font);
-  color: --font-color;
+  color: var(--font-color);
 }
 
 .card-body {
@@ -54,14 +54,14 @@ h4 {
 }
 
 .w-text {
-  color:  --font-color
+  color:  var(--font-color);
 }
 
 /* Navbar Styling */
 
 #navbar {
   background-color: var(--primary-color);
-  min-height: 101.19px;
+  min-height: 6.25rem;
 }
 
 /*Hero*/
@@ -82,7 +82,7 @@ footer {
 }
 
 footer p {
-  color: --font-color;
+  color: var(--font-color);
 }
 
 footer table {
@@ -108,25 +108,25 @@ footer table {
 
 /*Our Dogs Styling */
 .dog-card {
-  min-height: 485px;
+  min-height: 30.3rem;
 }
 
 /* Success Styling */
 
 .max-height {
-  max-height: 700px;
+  max-height: 43.75rem;
 }
 
 /* Button Styling */
 
 .custom-button-filled {
-  border: 2px solid var(--secondary-color);
+  border: 0.125rem solid var(--secondary-color);
   background-color: var(--secondary-color);
-  color:  --font-color;
+  color: var(--font-color);
 }
 
 .custom-button-filled:hover {
-  border: 2px solid var(--highlight-color);
+  border: 0.125rem1 solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: var(--primary-color);
 }
@@ -147,7 +147,7 @@ footer table {
   }
 
   #adoption-process .card {
-    min-height: 151px;
+    min-height: 9.4rem;
   }
 
 }
@@ -162,11 +162,11 @@ footer table {
 /* XL Devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   header h2 {
-    border-radius: 20px;
+    border-radius: 1.25rem;
   }
 
   #spacer-top {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   /*About Us*/
   #about-us p {
@@ -174,7 +174,7 @@ footer table {
   }
 
   .adoption-card {
-    min-height: 136px;
+    min-height: 8.5rem;
   }
 
   #about-us div .mediaq-margin-top {
@@ -185,7 +185,7 @@ footer table {
 /* XXL Devices */
 @media screen and (min-width: 1400px) {
   #spacer-top {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   .card {
@@ -193,9 +193,9 @@ footer table {
   }
 
   #adoption-process .card {
-    min-height: 204.59px;
+    min-height: 12.8rem;
   }
   .adoption-card {
-    min-width: 140px;
+    min-width: 8.75rem;
   }
 }
