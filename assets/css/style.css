@@ -3,9 +3,9 @@
 /* CSS Variables */
 :root {
   --primary-color: #34646c;
-  --secondary-color: #c78340;
+  --secondary-color: #925E2A;
   --highlight-color: #82ddf2;
-  --highlight-color-light: #eee9dd;
+  --highlight-color-light: #f0eee8;
   --font-color: #ffffff;
   --primary-font: "Figtree", sans-serif;
   --secondary-font: "Kranky", cursive;
@@ -54,7 +54,7 @@ h4 {
 }
 
 .w-text {
-  color:  var(--font-color);
+  color: var(--font-color);
 }
 
 /* Navbar Styling */
@@ -74,6 +74,12 @@ h4 {
 #about-us p {
   text-align: center;
 }
+
+#success-stories figure figcaption,
+cite {
+  color: #000000;
+}
+
 
 /* Footer Styling */
 
@@ -149,7 +155,6 @@ footer table {
   #adoption-process .card {
     min-height: 9.4rem;
   }
-
 }
 
 /* LG Devices (992px and above) */
