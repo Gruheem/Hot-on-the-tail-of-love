@@ -944,7 +944,7 @@
       </div>
     </section>
 
-    <!-- Adoptoin Form -->
+    <!-- Adoption Form -->
 
     <section id="adoption-form" class="container">
       <div class="row">
@@ -957,28 +957,28 @@
           </h3>
         </div>
         <div class="col-12 col-md-2 col-xl-4 d-none d-md-block"></div>
-        <form class="row g-3 m-auto">
+        <form class="row g-3 m-auto" action="success.html" method="GET">
           <div class="col-12 col-md-6">
             <label for="full-name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="full-name" />
+            <input type="text" class="form-control" id="full-name" required/>
           </div>
           <div class="col-12 col-md-6">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" />
+            <input type="email" class="form-control" id="email" required/>
           </div>
           <div class="col-12 col-md-6">
             <label for="phone-number" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone-number" />
+            <input type="tel" class="form-control" id="phone-number" required/>
           </div>
           <div class="col-12 col-md-6">
             <label for="d-o-b" class="form-label">Date of Birth</label>
-            <input type="date" class="form-control" id="d-o-b" />
+            <input type="date" class="form-control" id="d-o-b" required/>
           </div>
           <div class="col-12 col-md-6">
             <label for="breed-preference" class="form-label">
               Breed Preference
             </label>
-            <input class="form-control" list="breeds" id="breed-preference" name="breed" />
+            <input class="form-control" list="breeds" id="breed-preference" name="breed" required/>
             <datalist id="breeds">
               <option value="Labrador Retriever"></option>
               <option value="German Shepherd"></option>
