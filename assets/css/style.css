@@ -70,19 +70,15 @@ h4 {
   width: 20rem;
 }
 
-/* Navbar Styling */
 
 #navbar {
   background-color: var(--primary-color);
   min-height: 6.25rem;
 }
 
-/*Hero*/
 #hero img {
   max-width: 100%;
 }
-
-/*About Us*/
 
 #about-us p {
   text-align: center;
@@ -93,7 +89,25 @@ cite {
   color: var(--quote-color);
 }
 
-/* Footer Styling */
+.dog-card {
+  min-height: 30.3rem;
+}
+
+/* Carousel Styling */
+
+.max-height {
+  max-height: 43.75rem;
+}
+
+.z-index {
+  z-index: 10;
+}
+
+.car-width {
+  max-width: 90%;
+}
+
+/* Footer Styles */
 
 footer {
   background-color: var(--primary-color);
@@ -117,8 +131,6 @@ iframe {
   border: none;
 }
 
-/* Social Links */
-
 #social-links a {
   color: var(--font-color);
   font-size: 2rem;
@@ -132,25 +144,6 @@ iframe {
   transition: color 0.3s ease-in-out;
 }
 
-/*Our Dogs Styling */
-.dog-card {
-  min-height: 30.3rem;
-}
-
-/* Carousel Styling */
-
-.max-height {
-  max-height: 43.75rem;
-}
-
-.z-index {
-  z-index: 10;
-}
-
-.car-width {
-  max-width: 90%;
-}
-
 /* Button Styling */
 
 .custom-button-filled {
@@ -160,7 +153,7 @@ iframe {
 }
 
 .custom-button-filled:hover {
-  border: 0.125rem1 solid var(--highlight-color);
+  border: 0.125rem solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: var(--primary-color);
 }
@@ -185,14 +178,14 @@ iframe {
   }
 }
 
-/* LG Devices (992px and above) */
+/* LG Devices */
 @media screen and (min-width: 992px) {
   .card {
     min-width: 25rem;
   }
 }
 
-/* XL Devices (large desktops, 1200px and up) */
+/* XL Devices */
 @media screen and (min-width: 1200px) {
   #hero-intro h2 {
     border-radius: 1.25rem;
