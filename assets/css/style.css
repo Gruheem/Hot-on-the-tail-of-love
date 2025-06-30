@@ -13,6 +13,10 @@
 
 /* Global Stlyes */
 
+html {
+  scroll-padding: 6.25rem;
+}
+
 body {
   font-family: var(--primary-font);
   padding-top: 6rem;
