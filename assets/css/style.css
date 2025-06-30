@@ -125,10 +125,18 @@ footer table {
   min-height: 30.3rem;
 }
 
-/* Success Styling */
+/* Carousel Styling */
 
 .max-height {
   max-height: 43.75rem;
+}
+
+.z-index {
+  z-index: 10;
+}
+
+.car-width {
+  max-width: 90%;
 }
 
 /* Button Styling */
