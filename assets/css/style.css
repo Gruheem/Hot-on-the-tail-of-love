@@ -113,6 +113,10 @@ footer table {
   background-color: transparent;
 }
 
+iframe {
+  border: none;
+}
+
 /* Social Links */
 
 #social-links a {
