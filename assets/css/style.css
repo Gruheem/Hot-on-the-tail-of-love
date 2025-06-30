@@ -93,6 +93,10 @@ cite {
   min-height: 30.3rem;
 }
 
+#our-dogs h4{
+  border-radius: 0;
+}
+
 /* Carousel Styling */
 
 .max-height {
