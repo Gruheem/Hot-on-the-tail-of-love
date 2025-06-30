@@ -65,6 +65,10 @@ h4 {
   min-height: 87vh;
 }
 
+.adoption-card {
+  width: 20rem;
+}
+
 /* Navbar Styling */
 
 #navbar {
@@ -194,10 +198,6 @@ footer table {
     text-align: left;
   }
 
-  .adoption-card {
-    min-height: 8.5rem;
-  }
-
   #about-us div .mediaq-margin-top {
     margin-top: 2rem;
   }
@@ -215,8 +215,5 @@ footer table {
 
   #adoption-process .card {
     min-height: 12.8rem;
-  }
-  .adoption-card {
-    min-width: 8.75rem;
   }
 }
