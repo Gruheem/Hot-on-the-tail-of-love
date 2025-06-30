@@ -3,7 +3,7 @@
 /* CSS Variables */
 :root {
   --primary-color: #34646c;
-  --secondary-color: #925E2A;
+  --secondary-color: #925e2a;
   --highlight-color: #82ddf2;
   --highlight-color-light: #f0eee8;
   --font-color: #ffffff;
@@ -93,7 +93,6 @@ cite {
   color: var(--quote-color);
 }
 
-
 /* Footer Styling */
 
 footer {
@@ -121,12 +120,16 @@ iframe {
 /* Social Links */
 
 #social-links a {
-  color: var(--secondary-color);
-  margin: 2rem;
+  color: var(--font-color);
+  font-size: 2rem;
+  margin: 4rem;
 }
 
 #social-links a:hover {
-  color: var(--highlight-color);
+  color: var(--secondary-color);
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 /*Our Dogs Styling */
