@@ -180,12 +180,19 @@ iframe {
   #adoption-process .card {
     min-height: 9.4rem;
   }
+
+  .dog-image-height {
+    max-height: 13.1rem;
+  }
 }
 
 /* LG Devices */
 @media screen and (min-width: 992px) {
   .card {
     min-width: 25rem;
+  }
+  .dog-image-height {
+    max-height: 18rem;
   }
 }
 
@@ -206,6 +213,10 @@ iframe {
   #about-us div .mediaq-margin-top {
     margin-top: 2rem;
   }
+
+  .dog-image-height {
+    max-height: 21.7rem;
+  }
 }
 
 /* XXL Devices */
@@ -218,7 +229,11 @@ iframe {
     min-width: 18rem;
   }
 
+  .dog-image-height {
+    max-height: 12.4rem;
+  }
+
   #adoption-process .card {
-    min-height: 12.8rem;
+    min-height: 12.1rem;
   }
 }
