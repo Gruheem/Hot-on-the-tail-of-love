@@ -138,7 +138,7 @@ iframe {
 #social-links a {
   color: var(--font-color);
   font-size: 2rem;
-  margin: 4rem;
+  margin: 4rem 0rem;
 }
 
 #social-links a:hover {
@@ -163,6 +163,13 @@ iframe {
 }
 
 /* Media Queries */
+
+/* XS Devices */
+@media screen and (max-width: 467px) {
+  #navbar h1 {
+    font-size: 1.7rem;
+  }
+}
 
 /* SM Devices */
 @media screen and (min-width: 576px) {
