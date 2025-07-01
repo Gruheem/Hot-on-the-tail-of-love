@@ -70,7 +70,6 @@ h4 {
   width: 20rem;
 }
 
-
 #navbar {
   background-color: var(--primary-color);
   min-height: 6.25rem;
@@ -93,7 +92,7 @@ cite {
   min-height: 30.3rem;
 }
 
-#our-dogs h4{
+#our-dogs h4 {
   border-radius: 0;
 }
 
@@ -133,6 +132,8 @@ footer table {
 
 iframe {
   border: none;
+  width: 100%;
+  min-height: 28rem;
 }
 
 #social-links a {
