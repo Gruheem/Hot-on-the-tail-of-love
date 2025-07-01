@@ -96,6 +96,11 @@ cite {
   border-radius: 0;
 }
 
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Carousel Styling */
 
 .max-height {
