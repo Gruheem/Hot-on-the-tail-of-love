@@ -164,10 +164,18 @@ iframe {
 
 /* Media Queries */
 
+/* XXS Devices */
+
+@media screen and (max-width: 380px) {
+  #navbar h1 {
+    font-size: 1.3rem;
+  }
+}
+
 /* XS Devices */
 @media screen and (max-width: 467px) {
   #navbar h1 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
 
