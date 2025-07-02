@@ -68,9 +68,7 @@
               <a class="nav-link active" href="#our-dogs">Dogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#success-stories"
-                >Testimonies</a
-              >
+              <a class="nav-link active" href="#success-stories">Testimonies</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#get-in-touch">Contact</a>
@@ -80,7 +78,6 @@
                 >Adopt Now!</a
               >
             </li>
-            
           </ul>
         </div>
       </div>
@@ -1172,18 +1169,22 @@
         .querySelectorAll(".navbar-collapse .nav-link")
         .forEach((link) => {
           link.addEventListener("click", function (e) {
-            let section = document.querySelector(e.target.getAttribute("href"));
-            if (section) {
-              e.preventDefault(); // Prevent default anchor click behavior
-              let navbarHeight =
-                document.querySelector(".navbar-toggler").offsetHeight;
-              window.scroll({
-                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                behavior: "smooth",
-              });
-              document
-                .querySelector(".navbar-collapse")
-                .classList.remove("show"); // Collapse navbar
+            const href = e.target.getAttribute("href");
+
+            // Only handle links starting with #
+            if (href.startsWith("#")) {
+              const section = document.querySelector(href);
+              if (section) {
+                e.preventDefault(); // Prevent default anchor behavior
+
+                // Use scrollIntoView, which respects scroll-padding
+                section.scrollIntoView({ behavior: "smooth", block: "start" });
+
+                // Collapse navbar after click
+                document
+                  .querySelector(".navbar-collapse")
+                  .classList.remove("show");
+              }
             }
           });
         });
